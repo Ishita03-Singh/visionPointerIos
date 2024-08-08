@@ -15,7 +15,6 @@
 		76A57F512C6295920009EB0C /* visionPointerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A57F502C6295920009EB0C /* visionPointerUITests.swift */; };
 		76A57F532C6295920009EB0C /* visionPointerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A57F522C6295920009EB0C /* visionPointerUITestsLaunchTests.swift */; };
 		76A57F612C6295F40009EB0C /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76A57F602C6295F40009EB0C /* ARKit.framework */; };
-		76A57F632C6296B20009EB0C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 76A57F622C6296B20009EB0C /* Info.plist */; };
 		76A57F652C629DBE0009EB0C /* viewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A57F642C629DBE0009EB0C /* viewcontroller.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +47,6 @@
 		76A57F502C6295920009EB0C /* visionPointerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionPointerUITests.swift; sourceTree = "<group>"; };
 		76A57F522C6295920009EB0C /* visionPointerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visionPointerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		76A57F602C6295F40009EB0C /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
-		76A57F622C6296B20009EB0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A57F642C629DBE0009EB0C /* viewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewcontroller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,7 +79,6 @@
 		76A57F292C6295910009EB0C = {
 			isa = PBXGroup;
 			children = (
-				76A57F622C6296B20009EB0C /* Info.plist */,
 				76A57F342C6295910009EB0C /* visionPointer */,
 				76A57F452C6295920009EB0C /* visionPointerTests */,
 				76A57F4F2C6295920009EB0C /* visionPointerUITests */,
@@ -251,7 +248,6 @@
 			files = (
 				76A57F3D2C6295920009EB0C /* Preview Assets.xcassets in Resources */,
 				76A57F3A2C6295920009EB0C /* Assets.xcassets in Resources */,
-				76A57F632C6296B20009EB0C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
